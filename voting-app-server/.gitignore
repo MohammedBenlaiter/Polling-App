@@ -1,0 +1,50 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.c9/
+.settings/
+*.launch
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+
+# Others
+*.swp
+*~
+
+# Spring Boot specific
+spring.log
+
+# Test reports
+/test-output/
+/reports/
+
+# Maven (if present)
+.mvn/
+!**/src/main/**/mvnw
+!**/src/main/**/mvnw.cmd
